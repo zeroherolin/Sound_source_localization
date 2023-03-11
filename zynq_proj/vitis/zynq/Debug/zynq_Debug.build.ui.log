@@ -1,0 +1,25 @@
+2023-03-11T02:26:49.965272400255-02:26:49 **** Incremental Build of configuration Debug for project zynq ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000- 
+000-make --no-print-directory main-build
+000-Building file: ../src/main.c
+000-Invoking: ARM v7 gcc compiler
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-Finished building: ../src/main.c
+000- 
+000-Building target: zynq.elf
+000-Invoking: ARM v7 gcc linker
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "zynq.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-Finished building target: zynq.elf
+000- 
+000-Invoking: ARM v7 Print Size
+000-arm-none-eabi-size zynq.elf  |tee "zynq.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  58224	   2584	  24384	  85192	  14cc8	zynq.elf
+000-Finished building: zynq.elf.size
+000- 
+00255-
+02:26:55 Build Finished (took 5s.561ms)
+

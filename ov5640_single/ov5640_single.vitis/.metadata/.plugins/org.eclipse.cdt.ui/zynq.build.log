@@ -1,0 +1,25 @@
+06:15:10 **** Incremental Build of configuration Debug for project zynq ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/display_demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+Finished building: ../src/display_demo.c
+ 
+Building target: zynq.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_domain/bsplib/lib -o "zynq.elf"  ./src/i2c/PS_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/display_demo.o ./src/ov5640.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size zynq.elf  |tee "zynq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  68980	   3048	18688656	18760684	11e43ec	zynq.elf
+Finished building: zynq.elf.size
+ 
+
+06:15:12 Build Finished (took 2s.237ms)
+

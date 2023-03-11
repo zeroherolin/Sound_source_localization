@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Mar  9 01:13:11 2023
+# Process ID: 22776
+# Current directory: C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22092 C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\project_1.xpr
+# Log file: C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vivado.log
+# Journal file: C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:17 . Memory (MB): peak = 936.699 ; gain = 288.691
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  9 01:14:24 2023...

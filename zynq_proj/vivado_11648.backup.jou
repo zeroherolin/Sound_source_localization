@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Mar 10 19:52:47 2023
+# Process ID: 11648
+# Current directory: C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13256 C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\project_1.xpr
+# Log file: C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vivado.log
+# Journal file: C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.xpr
+open_hw_manager
+update_compile_order -fileset sources_1
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_manager

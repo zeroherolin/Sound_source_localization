@@ -1,0 +1,733 @@
+!SESSION 2023-02-03 21:19:01.272 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Users\ZhouLin\Desktop\Sound_source_localization\ov5640_single\ov5640_single.vitis\.metadata\.bak_0.log
+Created Time: 2023-02-03 21:19:51.352
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.352
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.370
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1], Result: [null, {"cmos_rst_S_AXI": {"name": "cmos_rst",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_vdma_0_S_AXI_LITE": {"name": "axi_vdma_0",
+"base": "0x43000000",
+"high": "0x4300FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_LITE",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_vdma_1_S_AXI_LITE": {"name": "axi_vdma_1",
+"base": "0x43010000",
+"high": "0x4301FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_LITE",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"v_tc_0_ctrl": {"name": "v_tc_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "ctrl",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_dynclk_0_s00_axi": {"name": "axi_dynclk_0",
+"base": "0x43C10000",
+"high": "0x43C1FFFF",
+"size": "65536",
+"slaveintf": "s00_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_i2c_0": {"name": "ps7_i2c_0",
+"base": "0xE0004000",
+"high": "0xE0004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x0FFFFFFF",
+"size": "267386880",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.371
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.376
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.377
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.382
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.382
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.387
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.388
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.393
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.394
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.398
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.399
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.404
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.407
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.412
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0], Result: [null, axi_dynclk_0 axi_vdma_0 axi_vdma_1 cmos_rst ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_globaltimer_0 ps7_gpv_0 ps7_i2c_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_slcr_0 ps7_uart_1 ps7_xadc_0 v_tc_0]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.413
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa bit], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.418
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa bit], Result: [null, system_wrapper.bit]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:51.419
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:54.016
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:54.018
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:54.249
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:54.250
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:54.252
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:54.253
+!MESSAGE XSCT Command: [version], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:54.255
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:54.258
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:54.266
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:54.266
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)" && level==1}], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:19:57.289
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)" && level==1}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:00.293
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)" && level==1}], Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:03.321
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)" && level==1}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:07.578
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:07.580
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:07.582
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:07.623
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)
+  2  Platform Cable USB 00000000000000]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:07.624
+!MESSAGE XSCT Command: [version -server], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:07.627
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:07.628
+!MESSAGE XSCT Command: [version], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:07.629
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:07.630
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:07.637
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)
+  2  Platform Cable USB 00000000000000]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:07.638
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)" && level==1}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:10.661
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)" && level==1}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:13.669
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)" && level==1}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.693
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx cable Port_#0002.Hub_#0004 (initializing: loading firmware closed)" && level==1}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.694
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.716
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     4  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.718
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.723
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   2  Platform Cable USB 00000000000000]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.724
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.739
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     4  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.741
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.747
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   2  Platform Cable USB 00000000000000]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.748
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.764
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     4  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.767
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.774
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   2  Platform Cable USB 00000000000000]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.774
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.791
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     4  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.792
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.798
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   2  Platform Cable USB 00000000000000]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.799
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.815
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     4  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.816
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.822
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   2  Platform Cable USB 00000000000000]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.823
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.839
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     4  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.840
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Platform Cable USB 00000000000000" && level == 0}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.857
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Platform Cable USB 00000000000000" && level == 0}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.858
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.864
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 6000000]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.865
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.874
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.875
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.974
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:16.975
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:19.990
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:20.013
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:20.019
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   2* Platform Cable USB 00000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:20.019
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:20.036
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==1}], Result: [null,      3  arm_dap (idcode 4ba00477 irlen 4)
+     4  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:20.037
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:20.057
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:20.058
+!MESSAGE XSCT Command: [fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/zynq/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.305
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/zynq/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.330
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.344
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.345
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.587
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, system_wrapper]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.588
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.606
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.607
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.616
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.617
+!MESSAGE XSCT Command: [source C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/zynq/_ide/psinit/ps7_init.tcl], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.628
+!MESSAGE XSCT command with result: [source C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/zynq/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:22.629
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:23.261
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:23.262
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:23.272
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:23.274
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:23.305
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:23.306
+!MESSAGE XSCT Command: [dow C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/zynq/Debug/zynq.elf], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:24.831
+!MESSAGE XSCT command with result: [dow C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/zynq/Debug/zynq.elf], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:24.832
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:24.977
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:25.150
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:25.223
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:25.224
+!MESSAGE XSCT Command: [con], Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:20:25.238
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_zynq_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-02-03 21:20:25.251
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-02-03 21:20:25.251
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:38:54.262
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-107
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-03 21:38:54.274
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-107
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-02-03 21:38:54.563
+!MESSAGE Executing command: cmd /C E:\Xilinx\Vitis\2019.2\bin\wbtcv.bat -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-02-03 21:38:54.674
+!MESSAGE Executed Webtalk command

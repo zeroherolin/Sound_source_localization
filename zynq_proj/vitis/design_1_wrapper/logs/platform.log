@@ -1,0 +1,2259 @@
+TRACE::2023-03-09.19:33:03::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:03::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:03::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:06::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:06::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:06::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-03-09.19:33:08::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:08::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-03-09.19:33:08::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2023-03-09.19:33:08::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-03-09.19:33:08::SCWDomain::checking for install qemu data   : 
+TRACE::2023-03-09.19:33:08::SCWDomain:: Using the QEMU Data from install at  : E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2023-03-09.19:33:08::SCWDomain:: Using the QEMU args  from install at  : E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2023-03-09.19:33:08::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:08::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:08::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:08::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:08::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2023-03-09.19:33:08::SCWPlatform::Generating the sources  .
+TRACE::2023-03-09.19:33:08::SCWBDomain::Generating boot domain sources.
+TRACE::2023-03-09.19:33:08::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2023-03-09.19:33:08::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:08::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:08::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:08::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-03-09.19:33:08::SCWMssOS::No sw design opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:08::SCWMssOS::mss does not exists at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:08::SCWMssOS::Creating sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:08::SCWMssOS::Adding the swdes entry, created swdb C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:08::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:08::SCWMssOS::Writing mss at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:08::SCWMssOS::Completed writing the mss file at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-03-09.19:33:08::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-03-09.19:33:08::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-03-09.19:33:08::SCWBDomain::Completed writing the mss file at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-03-09.19:33:16::SCWPlatform::Generating sources Done.
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss||
+
+KEYINFO::2023-03-09.19:33:16::SCWMssOS::Could not open the swdb for C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+KEYINFO::2023-03-09.19:33:16::SCWMssOS::Could not open the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss is not found
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-03-09.19:33:16::SCWMssOS::No sw design opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::mss exists loading the mss file  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::Opened the sw design from mss  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::Adding the swdes entry C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-03-09.19:33:16::SCWMssOS::updating the scw layer about changes
+TRACE::2023-03-09.19:33:16::SCWMssOS::Opened the sw design.  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0a9e60a2920f8820e4b405bf2ef5f12a",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0a9e60a2920f8820e4b405bf2ef5f12a",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-03-09.19:33:16::SCWDomain::checking for install qemu data   : 
+TRACE::2023-03-09.19:33:16::SCWDomain:: Using the QEMU Data from install at  : E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2023-03-09.19:33:16::SCWDomain:: Using the QEMU args  from install at  : E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::No sw design opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::mss does not exists at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::Creating sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::Adding the swdes entry, created swdb C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::Writing mss at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::Completed writing the mss file at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-03-09.19:33:16::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-03-09.19:33:16::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0a9e60a2920f8820e4b405bf2ef5f12a",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:16::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:16::SCWMssOS::Completed writing the mss file at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-03-09.19:33:16::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2023-03-09.19:33:20::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2023-03-09.19:33:20::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-09.19:33:20::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2023-03-09.19:33:20::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-03-09.19:33:20::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-03-09.19:33:20::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-03-09.19:33:20::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-03-09.19:33:20::SCWSystem::Checking the domain standalone_domain
+LOG::2023-03-09.19:33:20::SCWSystem::Not a boot domain 
+LOG::2023-03-09.19:33:20::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-03-09.19:33:20::SCWDomain::Generating domain artifcats
+TRACE::2023-03-09.19:33:20::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-09.19:33:20::SCWMssOS::Copying the qemu file from  E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2023-03-09.19:33:20::SCWMssOS::Copying the qemu file from  E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/qemu/
+TRACE::2023-03-09.19:33:20::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2023-03-09.19:33:20::SCWMssOS::Could not open the swdb for C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+KEYINFO::2023-03-09.19:33:20::SCWMssOS::Could not open the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-03-09.19:33:20::SCWMssOS::No sw design opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::mss exists loading the mss file  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::Opened the sw design from mss  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::Adding the swdes entry C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-03-09.19:33:20::SCWMssOS::updating the scw layer about changes
+TRACE::2023-03-09.19:33:20::SCWMssOS::Opened the sw design.  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::Completed writing the mss file at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-03-09.19:33:20::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-09.19:33:20::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-03-09.19:33:20::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-03-09.19:33:20::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-03-09.19:33:20::SCWMssOS::Copying to export directory.
+TRACE::2023-03-09.19:33:20::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-09.19:33:20::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2023-03-09.19:33:20::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2023-03-09.19:33:20::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-03-09.19:33:20::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2023-03-09.19:33:20::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2023-03-09.19:33:20::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-09.19:33:20::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2023-03-09.19:33:20::SCWSystem::dir created 
+TRACE::2023-03-09.19:33:20::SCWSystem::Writing the bif 
+TRACE::2023-03-09.19:33:20::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-09.19:33:20::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-09.19:33:20::SCWPlatform::Completed generating the platform
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0a9e60a2920f8820e4b405bf2ef5f12a",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f7a7d944880fec0befb406c64fd7677e",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-09.19:33:20::SCWPlatform::updated the xpfm file.
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0a9e60a2920f8820e4b405bf2ef5f12a",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f7a7d944880fec0befb406c64fd7677e",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:20::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:20::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0a9e60a2920f8820e4b405bf2ef5f12a",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f7a7d944880fec0befb406c64fd7677e",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-03-09.19:33:21::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2023-03-09.19:33:21::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-09.19:33:21::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2023-03-09.19:33:21::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-03-09.19:33:21::SCWDomain::Generating domain artifcats
+TRACE::2023-03-09.19:33:21::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-09.19:33:21::SCWMssOS::Copying the qemu file from  E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2023-03-09.19:33:21::SCWMssOS::Copying the qemu file from  E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/qemu/
+TRACE::2023-03-09.19:33:21::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::Completed writing the mss file at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-03-09.19:33:21::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-09.19:33:21::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-03-09.19:33:21::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-03-09.19:33:21::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-03-09.19:33:21::SCWMssOS::Copying to export directory.
+TRACE::2023-03-09.19:33:21::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-09.19:33:21::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2023-03-09.19:33:21::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2023-03-09.19:33:21::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-03-09.19:33:21::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2023-03-09.19:33:21::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2023-03-09.19:33:21::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-09.19:33:21::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2023-03-09.19:33:21::SCWSystem::dir created 
+TRACE::2023-03-09.19:33:21::SCWSystem::Writing the bif 
+TRACE::2023-03-09.19:33:21::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-09.19:33:21::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-09.19:33:21::SCWPlatform::Completed generating the platform
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:33:21::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:33:21::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:33:21::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0a9e60a2920f8820e4b405bf2ef5f12a",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f7a7d944880fec0befb406c64fd7677e",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-09.19:33:21::SCWPlatform::updated the xpfm file.
+LOG::2023-03-09.19:41:55::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2023-03-09.19:41:55::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-09.19:41:55::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2023-03-09.19:41:55::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-03-09.19:41:55::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-03-09.19:41:55::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-03-09.19:41:55::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2023-03-09.19:41:55::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:41:55::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:41:55::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:41:55::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:41:55::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:41:55::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:41:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:41:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:41:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:41:55::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:41:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:41:55::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:41:55::SCWBDomain::Completed writing the mss file at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-03-09.19:41:55::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-09.19:41:55::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-03-09.19:41:55::SCWBDomain::System Command Ran  C:&  cd  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl & make 
+TRACE::2023-03-09.19:41:56::SCWBDomain::make -C zynq_fsbl_bsp
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[1]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:56::SCWBDomain::_fsbl_bsp'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make -C ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2023-03-09.19:41:56::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2023-03-09.19:41:56::SCWBDomain::d -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:56::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:56::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_3/src"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make -C ps7_cortexa9_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-03-09.19:41:56::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-03-09.19:41:56::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:56::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/bram_v4_3/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:56::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/bram_v4_3/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2023-03-09.19:41:56::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2023-03-09.19:41:56::SCWBDomain::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:56::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:56::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2023-03-09.19:41:56::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2023-03-09.19:41:56::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:56::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:56::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-03-09.19:41:56::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-03-09.19:41:56::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:56::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:56::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:41:56::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:41:56::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:56::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:56::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/src'
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-03-09.19:41:56::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-03-09.19:41:56::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:56::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:56::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:57::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:41:57::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:41:57::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:57::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:57::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2023-03-09.19:41:57::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2023-03-09.19:41:57::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:57::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:57::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:41:57::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:41:57::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:57::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:57::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2023-03-09.19:41:57::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-03-09.19:41:57::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:57::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_1/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[3]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:57::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_1/src/profile'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[3]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:57::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_1/src/profile'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:57::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_1/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:41:57::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:41:57::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:57::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:57::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/src'
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2023-03-09.19:41:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:41:57::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:41:57::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:58::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/src'
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:58::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/src'
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:41:58::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:41:58::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:58::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/src'
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:58::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/src'
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:41:58::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:41:58::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:58::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/src'
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:58::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/src'
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src"
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2023-03-09.19:41:58::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-03-09.19:41:58::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:58::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src'
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::"Compiling axi_lite_ctrl..."
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make[3]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:58::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src'
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make[3]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:58::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src'
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:58::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src'
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_3/src"
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2023-03-09.19:41:58::SCWBDomain::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2023-03-09.19:41:58::SCWBDomain::les -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:58::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/bram_v4_3/src'
+
+TRACE::2023-03-09.19:41:58::SCWBDomain::"Compiling bram"
+
+TRACE::2023-03-09.19:41:59::SCWBDomain::make[3]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:59::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/bram_v4_3/src'
+
+TRACE::2023-03-09.19:41:59::SCWBDomain::make[3]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:59::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/bram_v4_3/src'
+
+TRACE::2023-03-09.19:41:59::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:41:59::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/bram_v4_3/src'
+
+TRACE::2023-03-09.19:41:59::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2023-03-09.19:41:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2023-03-09.19:41:59::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2023-03-09.19:41:59::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:41:59::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:41:59::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::"Compiling coresightps_dcc"
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:00::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2023-03-09.19:42:00::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2023-03-09.19:42:00::SCWBDomain::ostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:00::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::"Compiling cpu_cortexa9"
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:00::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-03-09.19:42:00::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-03-09.19:42:00::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:00::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src'
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::"Compiling ddrps"
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:00::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src'
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:00::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:00::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:00::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/src'
+
+TRACE::2023-03-09.19:42:00::SCWBDomain::"Compiling devcfg"
+
+TRACE::2023-03-09.19:42:01::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:01::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/src'
+
+TRACE::2023-03-09.19:42:01::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2023-03-09.19:42:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-03-09.19:42:01::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-03-09.19:42:01::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:01::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:01::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src'
+
+TRACE::2023-03-09.19:42:02::SCWBDomain::"Compiling dmaps"
+
+TRACE::2023-03-09.19:42:03::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:03::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src'
+
+TRACE::2023-03-09.19:42:03::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2023-03-09.19:42:03::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:03::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:03::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:03::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:03::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/src'
+
+TRACE::2023-03-09.19:42:03::SCWBDomain::"Compiling scugic"
+
+TRACE::2023-03-09.19:42:04::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:04::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/src'
+
+TRACE::2023-03-09.19:42:04::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2023-03-09.19:42:04::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-03-09.19:42:04::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-03-09.19:42:04::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:04::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:04::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/src'
+
+TRACE::2023-03-09.19:42:04::SCWBDomain::"Compiling scutimer"
+
+TRACE::2023-03-09.19:42:05::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:05::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/src'
+
+TRACE::2023-03-09.19:42:05::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2023-03-09.19:42:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:05::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:05::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:05::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:05::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/src'
+
+TRACE::2023-03-09.19:42:05::SCWBDomain::"Compiling scuwdt"
+
+TRACE::2023-03-09.19:42:06::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:06::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/src'
+
+TRACE::2023-03-09.19:42:06::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2023-03-09.19:42:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-03-09.19:42:06::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-03-09.19:42:06::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:06::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:06::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_1/src'
+
+TRACE::2023-03-09.19:42:06::SCWBDomain::"Compiling standalone"
+
+TRACE::2023-03-09.19:42:12::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:12::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_1/src'
+
+TRACE::2023-03-09.19:42:13::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2023-03-09.19:42:13::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:13::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:13::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:13::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:13::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/src'
+
+TRACE::2023-03-09.19:42:13::SCWBDomain::"Compiling uartps"
+
+TRACE::2023-03-09.19:42:14::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:14::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/src'
+
+TRACE::2023-03-09.19:42:14::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2023-03-09.19:42:14::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:14::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:14::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:14::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:14::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/src'
+
+TRACE::2023-03-09.19:42:14::SCWBDomain::"Compiling xadcps"
+
+TRACE::2023-03-09.19:42:16::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:16::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/src'
+
+TRACE::2023-03-09.19:42:16::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+TRACE::2023-03-09.19:42:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:16::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:16::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:16::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:16::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/src'
+
+TRACE::2023-03-09.19:42:16::SCWBDomain::"Compiling XilFFs Library"
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:17::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/src'
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:17::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:17::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::make[2]: Entering directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq
+TRACE::2023-03-09.19:42:17::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/src'
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::make[2]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:17::SCWBDomain::fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/src'
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::'Finished building libraries'
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::make[1]: Leaving directory 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_
+TRACE::2023-03-09.19:42:17::SCWBDomain::fsbl_bsp'
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cortexa9_0/
+TRACE::2023-03-09.19:42:17::SCWBDomain::include -I.
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2023-03-09.19:42:17::SCWBDomain::9_0/include -I.
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2023-03-09.19:42:17::SCWBDomain::0/include -I.
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c image_mover.c -o image_mover.o -Izynq_fsbl_b
+TRACE::2023-03-09.19:42:17::SCWBDomain::sp/ps7_cortexa9_0/include -I.
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2023-03-09.19:42:17::SCWBDomain::0/include -I.
+
+TRACE::2023-03-09.19:42:17::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_fsbl_bsp
+TRACE::2023-03-09.19:42:17::SCWBDomain::/ps7_cortexa9_0/include -I.
+
+TRACE::2023-03-09.19:42:18::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c main.c -o main.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2023-03-09.19:42:18::SCWBDomain::9_0/include -I.
+
+TRACE::2023-03-09.19:42:18::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2023-03-09.19:42:18::SCWBDomain::0/include -I.
+
+TRACE::2023-03-09.19:42:18::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2023-03-09.19:42:18::SCWBDomain::9_0/include -I.
+
+TRACE::2023-03-09.19:42:18::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c ps7_init.c -o ps7_init.o -Izynq_fsbl_bsp/ps7
+TRACE::2023-03-09.19:42:18::SCWBDomain::_cortexa9_0/include -I.
+
+TRACE::2023-03-09.19:42:18::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2023-03-09.19:42:18::SCWBDomain::9_0/include -I.
+
+TRACE::2023-03-09.19:42:18::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_handoff.S -o fsbl_handoff.o -Izynq_fsbl
+TRACE::2023-03-09.19:42:18::SCWBDomain::_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2023-03-09.19:42:18::SCWBDomain::arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  nor.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  qspi.o  ps7_init.o
+TRACE::2023-03-09.19:42:18::SCWBDomain::  pcap.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2023-03-09.19:42:18::SCWBDomain::hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxi
+TRACE::2023-03-09.19:42:18::SCWBDomain::l,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                               -Wl,--gc-sections -Lz
+TRACE::2023-03-09.19:42:18::SCWBDomain::ynq_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2023-03-09.19:42:19::SCWSystem::Checking the domain standalone_domain
+LOG::2023-03-09.19:42:19::SCWSystem::Not a boot domain 
+LOG::2023-03-09.19:42:19::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-03-09.19:42:19::SCWDomain::Generating domain artifcats
+TRACE::2023-03-09.19:42:19::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-09.19:42:19::SCWMssOS::Copying the qemu file from  E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2023-03-09.19:42:19::SCWMssOS::Copying the qemu file from  E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/qemu/
+TRACE::2023-03-09.19:42:19::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-09.19:42:19::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:19::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:19::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:19::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:42:19::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:19::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:42:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:42:19::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:42:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:42:19::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:42:19::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:42:19::SCWMssOS::Completed writing the mss file at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-03-09.19:42:19::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:42:19::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-09.19:42:19::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-03-09.19:42:19::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-03-09.19:42:19::SCWMssOS::doing bsp build ... 
+TRACE::2023-03-09.19:42:19::SCWMssOS::System Command Ran  C: & cd  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2023-03-09.19:42:19::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2023-03-09.19:42:19::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2023-03-09.19:42:19::SCWMssOS::d -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_3/src"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::make -C ps7_cortexa9_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-03-09.19:42:19::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-03-09.19:42:19::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2023-03-09.19:42:19::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2023-03-09.19:42:19::SCWMssOS::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2023-03-09.19:42:19::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2023-03-09.19:42:19::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-03-09.19:42:19::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-03-09.19:42:19::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:42:19::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:42:19::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-03-09.19:42:19::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-03-09.19:42:19::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2023-03-09.19:42:19::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:42:19::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:42:19::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2023-03-09.19:42:20::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2023-03-09.19:42:20::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:42:20::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:42:20::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2023-03-09.19:42:20::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-03-09.19:42:20::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:42:20::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:42:20::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-03-09.19:42:20::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-03-09.19:42:20::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axi_lite_ctrl_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2023-03-09.19:42:20::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-03-09.19:42:20::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:20::SCWMssOS::"Compiling axi_lite_ctrl..."
+
+TRACE::2023-03-09.19:42:21::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_3/src"
+
+TRACE::2023-03-09.19:42:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2023-03-09.19:42:21::SCWMssOS::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2023-03-09.19:42:21::SCWMssOS::les -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:21::SCWMssOS::"Compiling bram"
+
+TRACE::2023-03-09.19:42:22::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2023-03-09.19:42:22::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2023-03-09.19:42:22::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2023-03-09.19:42:22::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:22::SCWMssOS::"Compiling coresightps_dcc"
+
+TRACE::2023-03-09.19:42:22::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2023-03-09.19:42:22::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2023-03-09.19:42:22::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2023-03-09.19:42:22::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:22::SCWMssOS::"Compiling cpu_cortexa9"
+
+TRACE::2023-03-09.19:42:22::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2023-03-09.19:42:22::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-03-09.19:42:22::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-03-09.19:42:22::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:22::SCWMssOS::"Compiling ddrps"
+
+TRACE::2023-03-09.19:42:22::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2023-03-09.19:42:22::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:22::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:22::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:23::SCWMssOS::"Compiling devcfg"
+
+TRACE::2023-03-09.19:42:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2023-03-09.19:42:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-03-09.19:42:24::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-03-09.19:42:24::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:24::SCWMssOS::"Compiling dmaps"
+
+TRACE::2023-03-09.19:42:25::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2023-03-09.19:42:25::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:25::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:25::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:25::SCWMssOS::"Compiling scugic"
+
+TRACE::2023-03-09.19:42:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2023-03-09.19:42:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-03-09.19:42:27::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-03-09.19:42:27::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:27::SCWMssOS::"Compiling scutimer"
+
+TRACE::2023-03-09.19:42:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2023-03-09.19:42:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:27::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:27::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:28::SCWMssOS::"Compiling scuwdt"
+
+TRACE::2023-03-09.19:42:28::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2023-03-09.19:42:28::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-03-09.19:42:28::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-03-09.19:42:28::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:28::SCWMssOS::"Compiling standalone"
+
+TRACE::2023-03-09.19:42:35::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2023-03-09.19:42:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:35::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:35::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:35::SCWMssOS::"Compiling uartps"
+
+TRACE::2023-03-09.19:42:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2023-03-09.19:42:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-03-09.19:42:36::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-03-09.19:42:36::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2023-03-09.19:42:36::SCWMssOS::"Compiling xadcps"
+
+TRACE::2023-03-09.19:42:38::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-03-09.19:42:38::SCWMssOS::Copying to export directory.
+TRACE::2023-03-09.19:42:39::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-09.19:42:39::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-03-09.19:42:39::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-03-09.19:42:39::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2023-03-09.19:42:39::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2023-03-09.19:42:39::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-09.19:42:39::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2023-03-09.19:42:39::SCWSystem::dir created 
+TRACE::2023-03-09.19:42:39::SCWSystem::Writing the bif 
+TRACE::2023-03-09.19:42:39::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-09.19:42:39::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-09.19:42:39::SCWPlatform::Completed generating the platform
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:42:39::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:42:39::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:42:39::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:42:39::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:42:39::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:42:39::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:42:39::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:42:39::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:42:39::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:42:39::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:42:39::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:42:39::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0a9e60a2920f8820e4b405bf2ef5f12a",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"E:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f7a7d944880fec0befb406c64fd7677e",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-09.19:42:39::SCWPlatform::updated the xpfm file.
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to open the hw design at C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA given C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA absoulate path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform::DSA directory C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Platform Path C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-03-09.19:42:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-03-09.19:42:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-09.19:42:39::SCWMssOS::Checking the sw design at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-09.19:42:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-03-09.19:42:39::SCWMssOS::Sw design exists and opened at  C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss

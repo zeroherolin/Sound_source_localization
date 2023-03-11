@@ -1,0 +1,752 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Mar  3 17:56:39 2023
+# Process ID: 14644
+# Current directory: C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.runs/design_1_mic2bram_0_0_synth_1
+# Command line: vivado.exe -log design_1_mic2bram_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_mic2bram_0_0.tcl
+# Log file: C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.runs/design_1_mic2bram_0_0_synth_1/design_1_mic2bram_0_0.vds
+# Journal file: C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.runs/design_1_mic2bram_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_mic2bram_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.2/data/ip'.
+Command: synth_design -top design_1_mic2bram_0_0 -part xc7z020clg400-2 -mode out_of_context
+Starting synth_design
+WARNING: [IP_Flow 19-3571] IP 'design_1_mic2bram_0_0' is restricted:
+* Module reference is stale and needs refreshing.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9212 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1001.484 ; gain = 236.156
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_mic2bram_0_0' [c:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.srcs/sources_1/bd/design_1/ip/design_1_mic2bram_0_0/synth/design_1_mic2bram_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'mic2bram' [C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.srcs/sources_1/new/mic2bram.v:1]
+	Parameter div_ws bound to: 64 - type: integer 
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter READ_MIC bound to: 1 - type: integer 
+	Parameter WRITE_BRAM bound to: 2 - type: integer 
+	Parameter RAM_IDLE bound to: 0 - type: integer 
+	Parameter WRITING bound to: 1 - type: integer 
+	Parameter END_WRITE bound to: 2 - type: integer 
+	Parameter start_addr bound to: 1073741824 - type: integer 
+	Parameter end_addr bound to: 1073745916 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'i2s_top' [C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.srcs/sources_1/new/i2s_top.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'i2s_top' (1#1) [C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.srcs/sources_1/new/i2s_top.v:1]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/mem1024.txt' is read successfully [C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.srcs/sources_1/new/mic2bram.v:77]
+WARNING: [Synth 8-5788] Register ram_temp_reg in module mic2bram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code 
+WARNING: [Synth 8-4767] Trying to implement RAM 'ram_temp_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "ram_temp_reg" dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'mic2bram' (2#1) [C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.srcs/sources_1/new/mic2bram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_mic2bram_0_0' (3#1) [c:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.srcs/sources_1/bd/design_1/ip/design_1_mic2bram_0_0/synth/design_1_mic2bram_0_0.v:58]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[31]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[30]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[29]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[28]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[27]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[26]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[25]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[24]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[23]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[22]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[21]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[20]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[19]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[18]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[17]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[16]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[15]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[14]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[13]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[12]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[11]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[10]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[9]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[8]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[7]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[6]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[5]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[4]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[3]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[2]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[1]
+WARNING: [Synth 8-3331] design mic2bram has unconnected port din[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1565.418 ; gain = 800.090
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1565.418 ; gain = 800.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1565.418 ; gain = 800.090
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1565.418 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1855.820 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.591 . Memory (MB): peak = 1864.930 ; gain = 9.109
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:58 ; elapsed = 00:00:56 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:58 ; elapsed = 00:00:56 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:00:56 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:13 ; elapsed = 00:02:16 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |muxpart__2677_mic2bram |           1|     32736|
+|2     |mic2bram__GB1          |           1|      5571|
+|3     |mic2bram__GB2          |           1|      9734|
+|4     |muxpart__2678_mic2bram |           1|     32736|
+|5     |mic2bram__GB4          |           1|     20609|
+|6     |mic2bram__GB5          |           1|     26128|
+|7     |mic2bram__GB6          |           1|     32489|
+|8     |mic2bram__GB7          |           1|     31928|
+|9     |mic2bram__GB8          |           1|      8767|
+|10    |mic2bram__GB9          |           1|     28931|
+|11    |mic2bram__GB10         |           1|      8658|
+|12    |mic2bram__GB11         |           1|     13527|
+|13    |mic2bram__GB12         |           1|     33104|
+|14    |mic2bram__GB13         |           1|     13016|
+|15    |mic2bram__GB14         |           1|     17662|
+|16    |mic2bram__GB15         |           1|     34123|
+|17    |mic2bram__GB16         |           1|     10258|
+|18    |mic2bram__GB17         |           1|     35429|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1034  
+	               24 Bit    Registers := 8     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1012  
+	   8 Input     32 Bit        Muxes := 768   
+	   4 Input     32 Bit        Muxes := 2     
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 768   
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 868   
+	   2 Input      1 Bit        Muxes := 1013  
+	   8 Input      1 Bit        Muxes := 128   
+	   4 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module i2s_top__1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 2     
+Module i2s_top__2 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 2     
+Module i2s_top__3 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 2     
+Module i2s_top 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 2     
+Module mic2bram 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1026  
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1012  
+	   8 Input     32 Bit        Muxes := 768   
+	   4 Input     32 Bit        Muxes := 2     
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 768   
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 868   
+	   2 Input      1 Bit        Muxes := 1013  
+	   8 Input      1 Bit        Muxes := 128   
+	   4 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3917] design design_1_mic2bram_0_0 has port ram_rst driven by constant 0
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[31]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[30]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[29]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[28]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[27]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[26]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[25]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[24]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[23]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[22]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[21]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[20]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[19]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[18]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[17]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[16]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[15]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[14]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[13]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[12]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[11]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[10]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[9]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[8]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[7]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[6]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[5]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[4]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[3]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[2]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[1]
+WARNING: [Synth 8-3331] design design_1_mic2bram_0_0 has unconnected port din[0]
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[610][23]' (FDE) to 'insti_2/ram_temp_reg[610][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[610][24]' (FDE) to 'insti_2/ram_temp_reg[610][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[610][25]' (FDE) to 'insti_2/ram_temp_reg[610][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[610][26]' (FDE) to 'insti_2/ram_temp_reg[610][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[610][27]' (FDE) to 'insti_2/ram_temp_reg[610][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[610][28]' (FDE) to 'insti_2/ram_temp_reg[610][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[610][29]' (FDE) to 'insti_2/ram_temp_reg[610][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[610][30]' (FDE) to 'insti_2/ram_temp_reg[610][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[934][23]' (FDE) to 'insti_2/ram_temp_reg[934][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[934][24]' (FDE) to 'insti_2/ram_temp_reg[934][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[934][25]' (FDE) to 'insti_2/ram_temp_reg[934][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[934][26]' (FDE) to 'insti_2/ram_temp_reg[934][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[934][27]' (FDE) to 'insti_2/ram_temp_reg[934][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[934][28]' (FDE) to 'insti_2/ram_temp_reg[934][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[934][29]' (FDE) to 'insti_2/ram_temp_reg[934][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[934][30]' (FDE) to 'insti_2/ram_temp_reg[934][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[730][23]' (FDE) to 'insti_2/ram_temp_reg[730][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[730][24]' (FDE) to 'insti_2/ram_temp_reg[730][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[730][25]' (FDE) to 'insti_2/ram_temp_reg[730][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[730][26]' (FDE) to 'insti_2/ram_temp_reg[730][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[730][27]' (FDE) to 'insti_2/ram_temp_reg[730][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[730][28]' (FDE) to 'insti_2/ram_temp_reg[730][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[730][29]' (FDE) to 'insti_2/ram_temp_reg[730][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[730][30]' (FDE) to 'insti_2/ram_temp_reg[730][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[939][23]' (FDE) to 'insti_2/ram_temp_reg[939][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[939][24]' (FDE) to 'insti_2/ram_temp_reg[939][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[939][25]' (FDE) to 'insti_2/ram_temp_reg[939][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[939][26]' (FDE) to 'insti_2/ram_temp_reg[939][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[939][27]' (FDE) to 'insti_2/ram_temp_reg[939][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[939][28]' (FDE) to 'insti_2/ram_temp_reg[939][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[939][29]' (FDE) to 'insti_2/ram_temp_reg[939][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[939][30]' (FDE) to 'insti_2/ram_temp_reg[939][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[60][23]' (FDE) to 'insti_2/ram_temp_reg[60][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[60][24]' (FDE) to 'insti_2/ram_temp_reg[60][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[60][25]' (FDE) to 'insti_2/ram_temp_reg[60][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[60][26]' (FDE) to 'insti_2/ram_temp_reg[60][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[60][27]' (FDE) to 'insti_2/ram_temp_reg[60][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[60][28]' (FDE) to 'insti_2/ram_temp_reg[60][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[60][29]' (FDE) to 'insti_2/ram_temp_reg[60][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[60][30]' (FDE) to 'insti_2/ram_temp_reg[60][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[85][23]' (FDE) to 'insti_2/ram_temp_reg[85][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[85][24]' (FDE) to 'insti_2/ram_temp_reg[85][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[85][25]' (FDE) to 'insti_2/ram_temp_reg[85][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[85][26]' (FDE) to 'insti_2/ram_temp_reg[85][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[85][27]' (FDE) to 'insti_2/ram_temp_reg[85][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[85][28]' (FDE) to 'insti_2/ram_temp_reg[85][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[85][29]' (FDE) to 'insti_2/ram_temp_reg[85][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[85][30]' (FDE) to 'insti_2/ram_temp_reg[85][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[21][23]' (FDE) to 'insti_2/ram_temp_reg[21][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[21][24]' (FDE) to 'insti_2/ram_temp_reg[21][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[21][25]' (FDE) to 'insti_2/ram_temp_reg[21][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[21][26]' (FDE) to 'insti_2/ram_temp_reg[21][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[21][27]' (FDE) to 'insti_2/ram_temp_reg[21][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[21][28]' (FDE) to 'insti_2/ram_temp_reg[21][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[21][29]' (FDE) to 'insti_2/ram_temp_reg[21][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[21][30]' (FDE) to 'insti_2/ram_temp_reg[21][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[58][23]' (FDE) to 'insti_2/ram_temp_reg[58][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[58][24]' (FDE) to 'insti_2/ram_temp_reg[58][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[58][25]' (FDE) to 'insti_2/ram_temp_reg[58][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[58][26]' (FDE) to 'insti_2/ram_temp_reg[58][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[58][27]' (FDE) to 'insti_2/ram_temp_reg[58][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[58][28]' (FDE) to 'insti_2/ram_temp_reg[58][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[58][29]' (FDE) to 'insti_2/ram_temp_reg[58][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[58][30]' (FDE) to 'insti_2/ram_temp_reg[58][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[101][23]' (FDE) to 'insti_2/ram_temp_reg[101][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[101][24]' (FDE) to 'insti_2/ram_temp_reg[101][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[101][25]' (FDE) to 'insti_2/ram_temp_reg[101][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[101][26]' (FDE) to 'insti_2/ram_temp_reg[101][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[101][27]' (FDE) to 'insti_2/ram_temp_reg[101][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[101][28]' (FDE) to 'insti_2/ram_temp_reg[101][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[101][29]' (FDE) to 'insti_2/ram_temp_reg[101][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[101][30]' (FDE) to 'insti_2/ram_temp_reg[101][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[80][23]' (FDE) to 'insti_2/ram_temp_reg[80][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[80][24]' (FDE) to 'insti_2/ram_temp_reg[80][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[80][25]' (FDE) to 'insti_2/ram_temp_reg[80][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[80][26]' (FDE) to 'insti_2/ram_temp_reg[80][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[80][27]' (FDE) to 'insti_2/ram_temp_reg[80][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[80][28]' (FDE) to 'insti_2/ram_temp_reg[80][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[80][29]' (FDE) to 'insti_2/ram_temp_reg[80][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[80][30]' (FDE) to 'insti_2/ram_temp_reg[80][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[309][23]' (FDE) to 'insti_2/ram_temp_reg[309][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[309][24]' (FDE) to 'insti_2/ram_temp_reg[309][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[309][25]' (FDE) to 'insti_2/ram_temp_reg[309][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[309][26]' (FDE) to 'insti_2/ram_temp_reg[309][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[309][27]' (FDE) to 'insti_2/ram_temp_reg[309][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[309][28]' (FDE) to 'insti_2/ram_temp_reg[309][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[309][29]' (FDE) to 'insti_2/ram_temp_reg[309][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[309][30]' (FDE) to 'insti_2/ram_temp_reg[309][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[79][23]' (FDE) to 'insti_2/ram_temp_reg[79][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[79][24]' (FDE) to 'insti_2/ram_temp_reg[79][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[79][25]' (FDE) to 'insti_2/ram_temp_reg[79][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[79][26]' (FDE) to 'insti_2/ram_temp_reg[79][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[79][27]' (FDE) to 'insti_2/ram_temp_reg[79][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[79][28]' (FDE) to 'insti_2/ram_temp_reg[79][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[79][29]' (FDE) to 'insti_2/ram_temp_reg[79][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[79][30]' (FDE) to 'insti_2/ram_temp_reg[79][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[733][23]' (FDE) to 'insti_2/ram_temp_reg[733][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[733][24]' (FDE) to 'insti_2/ram_temp_reg[733][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[733][25]' (FDE) to 'insti_2/ram_temp_reg[733][31]'
+INFO: [Synth 8-3886] merging instance 'insti_2/ram_temp_reg[733][26]' (FDE) to 'insti_2/ram_temp_reg[733][31]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3917] design mic2bram__GB6 has port P[2] driven by constant 0
+WARNING: [Synth 8-3917] design mic2bram__GB6 has port P[1] driven by constant 0
+WARNING: [Synth 8-3917] design mic2bram__GB6 has port P[0] driven by constant 0
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:55 ; elapsed = 00:04:22 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |muxpart__2677_mic2bram |           1|     32736|
+|2     |mic2bram__GB1          |           1|      3748|
+|3     |mic2bram__GB2          |           1|      6376|
+|4     |muxpart__2678_mic2bram |           1|     32736|
+|5     |mic2bram__GB4          |           1|     10279|
+|6     |mic2bram__GB5          |           1|      9249|
+|7     |mic2bram__GB6          |           1|      4936|
+|8     |mic2bram__GB7          |           1|      9628|
+|9     |mic2bram__GB8          |           1|      5464|
+|10    |mic2bram__GB9          |           1|     12071|
+|11    |mic2bram__GB10         |           1|      5645|
+|12    |mic2bram__GB11         |           1|      7898|
+|13    |mic2bram__GB12         |           1|     10117|
+|14    |mic2bram__GB13         |           1|      7229|
+|15    |mic2bram__GB14         |           1|      9161|
+|16    |mic2bram__GB15         |           1|     10602|
+|17    |mic2bram__GB16         |           1|      6050|
+|18    |mic2bram__GB17         |           1|     10296|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:04:06 ; elapsed = 00:04:33 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:04:14 ; elapsed = 00:04:41 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |muxpart__2677_mic2bram |           1|     24552|
+|2     |mic2bram__GB1          |           1|      2200|
+|3     |mic2bram__GB2          |           1|      3646|
+|4     |muxpart__2678_mic2bram |           1|     24552|
+|5     |mic2bram__GB4          |           1|      6839|
+|6     |mic2bram__GB5          |           1|      4968|
+|7     |mic2bram__GB6          |           1|      4895|
+|8     |mic2bram__GB7          |           1|      5820|
+|9     |mic2bram__GB8          |           1|      3177|
+|10    |mic2bram__GB9          |           1|      8516|
+|11    |mic2bram__GB10         |           1|      3262|
+|12    |mic2bram__GB11         |           1|      4711|
+|13    |mic2bram__GB12         |           1|      6005|
+|14    |mic2bram__GB13         |           1|      4695|
+|15    |mic2bram__GB14         |           1|      5853|
+|16    |mic2bram__GB15         |           1|      6108|
+|17    |mic2bram__GB16         |           1|      3662|
+|18    |mic2bram__GB17         |           1|      6357|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[295][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[175][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[791][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[191][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[103][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[103][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[103][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (insti_5/\ram_temp_reg[103][3] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:04:29 ; elapsed = 00:04:56 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |muxpart__2677_mic2bram |           1|     11448|
+|2     |mic2bram__GB1          |           1|       973|
+|3     |mic2bram__GB2          |           1|      1601|
+|4     |muxpart__2678_mic2bram |           1|     11448|
+|5     |mic2bram__GB4          |           1|      2977|
+|6     |mic2bram__GB5          |           1|      3028|
+|7     |mic2bram__GB6          |           1|      2976|
+|8     |mic2bram__GB7          |           1|      3239|
+|9     |mic2bram__GB8          |           1|       929|
+|10    |mic2bram__GB9          |           1|      2476|
+|11    |mic2bram__GB10         |           1|       913|
+|12    |mic2bram__GB11         |           1|      1402|
+|13    |mic2bram__GB12         |           1|      3382|
+|14    |mic2bram__GB13         |           1|      1397|
+|15    |mic2bram__GB14         |           1|      1750|
+|16    |mic2bram__GB15         |           1|      3791|
+|17    |mic2bram__GB16         |           1|      1227|
+|18    |mic2bram__GB17         |           1|      3744|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:04:42 ; elapsed = 00:05:09 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:42 ; elapsed = 00:05:09 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:43 ; elapsed = 00:05:11 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:44 ; elapsed = 00:05:11 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:45 ; elapsed = 00:05:12 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:45 ; elapsed = 00:05:13 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++----------------------+----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name           | RTL Name                                     | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++----------------------+----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|design_1_mic2bram_0_0 | inst/I2S_Decoder[2].i2s_u/shift_reg_l_reg[7] | 8      | 6     | YES          | NO                 | YES               | 6      | 0       | 
+|design_1_mic2bram_0_0 | inst/i2s_u3/shift_reg_r_reg[7]               | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++----------------------+----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     8|
+|2     |LUT1   |     3|
+|3     |LUT2   |   329|
+|4     |LUT3   |  4068|
+|5     |LUT4   |  2440|
+|6     |LUT5   |  6667|
+|7     |LUT6   | 11878|
+|8     |MUXF7  |  6528|
+|9     |MUXF8  |  3264|
+|10    |SRL16E |     7|
+|11    |FDCE   |   623|
+|12    |FDPE   |     1|
+|13    |FDRE   | 22399|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------------+----------+------+
+|      |Instance                   |Module    |Cells |
++------+---------------------------+----------+------+
+|1     |top                        |          | 58215|
+|2     |  inst                     |mic2bram  | 58215|
+|3     |    \I2S_Decoder[0].i2s_u  |i2s_top   |  6774|
+|4     |    \I2S_Decoder[2].i2s_u  |i2s_top_0 |  1635|
+|5     |    \I2S_Decoder[4].i2s_u  |i2s_top_1 |  1714|
+|6     |    i2s_u3                 |i2s_top_2 |   835|
++------+---------------------------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:45 ; elapsed = 00:05:13 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 35 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:53 ; elapsed = 00:04:50 . Memory (MB): peak = 1864.930 ; gain = 800.090
+Synthesis Optimization Complete : Time (s): cpu = 00:04:45 ; elapsed = 00:05:13 . Memory (MB): peak = 1864.930 ; gain = 1099.602
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.721 . Memory (MB): peak = 1864.930 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 9800 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'design_1_mic2bram_0_0' is not ideal for floorplanning, since the cellview 'mic2bram' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1864.930 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+227 Infos, 72 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:05:01 ; elapsed = 00:05:30 . Memory (MB): peak = 1864.930 ; gain = 1401.691
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1864.930 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.runs/design_1_mic2bram_0_0_synth_1/design_1_mic2bram_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1864.930 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1864.930 ; gain = 0.000
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1174] Renamed 5 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1864.930 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/project_1.runs/design_1_mic2bram_0_0_synth_1/design_1_mic2bram_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1864.930 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file design_1_mic2bram_0_0_utilization_synth.rpt -pb design_1_mic2bram_0_0_utilization_synth.pb
+write_vhdl: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1864.930 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  3 18:02:50 2023...

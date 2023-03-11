@@ -1,0 +1,1196 @@
+19:32:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\temp_xsdb_launch_script.tcl
+19:32:38 INFO  : Registering command handlers for Vitis TCF services
+19:32:39 INFO  : XSCT server has started successfully.
+19:32:39 INFO  : Successfully done setting XSCT server connection channel  
+19:32:39 INFO  : plnx-install-location is set to ''
+19:32:39 INFO  : Successfully done setting workspace for the tool. 
+19:32:39 INFO  : Successfully done query RDI_DATADIR 
+19:42:39 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+19:42:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:43:00 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+19:43:00 INFO  : 'jtag frequency' command is executed.
+19:43:00 INFO  : Context for 'APU' is selected.
+19:43:00 INFO  : System reset is completed.
+19:43:03 INFO  : 'after 3000' command is executed.
+19:43:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+19:43:06 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+19:43:06 INFO  : Context for 'APU' is selected.
+19:43:07 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:43:07 INFO  : 'configparams force-mem-access 1' command is executed.
+19:43:07 INFO  : Context for 'APU' is selected.
+19:43:07 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+19:43:07 INFO  : 'ps7_init' command is executed.
+19:43:07 INFO  : 'ps7_post_config' command is executed.
+19:43:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:43:07 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:43:07 INFO  : 'configparams force-mem-access 0' command is executed.
+19:43:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:43:07 INFO  : Memory regions updated for context APU
+19:43:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:43:07 INFO  : 'con' command is executed.
+19:43:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:43:07 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+19:44:29 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+19:44:35 INFO  : Disconnected from the channel tcfchan#2.
+19:44:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:44:36 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+19:44:36 INFO  : 'jtag frequency' command is executed.
+19:44:36 INFO  : Context for 'APU' is selected.
+19:44:36 INFO  : System reset is completed.
+19:44:39 INFO  : 'after 3000' command is executed.
+19:44:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+19:44:42 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+19:44:42 INFO  : Context for 'APU' is selected.
+19:44:42 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:44:42 INFO  : 'configparams force-mem-access 1' command is executed.
+19:44:42 INFO  : Context for 'APU' is selected.
+19:44:42 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+19:44:42 INFO  : 'ps7_init' command is executed.
+19:44:42 INFO  : 'ps7_post_config' command is executed.
+19:44:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:44:43 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:44:43 INFO  : 'configparams force-mem-access 0' command is executed.
+19:44:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:44:43 INFO  : Memory regions updated for context APU
+19:44:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:44:43 INFO  : 'con' command is executed.
+19:44:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:44:43 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+19:46:04 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+19:46:10 INFO  : Disconnected from the channel tcfchan#3.
+19:46:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:46:10 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+19:46:10 INFO  : 'jtag frequency' command is executed.
+19:46:10 INFO  : Context for 'APU' is selected.
+19:46:10 INFO  : System reset is completed.
+19:46:13 INFO  : 'after 3000' command is executed.
+19:46:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+19:46:17 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+19:46:17 INFO  : Context for 'APU' is selected.
+19:46:17 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:46:17 INFO  : 'configparams force-mem-access 1' command is executed.
+19:46:17 INFO  : Context for 'APU' is selected.
+19:46:17 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+19:46:17 INFO  : 'ps7_init' command is executed.
+19:46:17 INFO  : 'ps7_post_config' command is executed.
+19:46:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:46:17 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:46:17 INFO  : 'configparams force-mem-access 0' command is executed.
+19:46:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:46:17 INFO  : Memory regions updated for context APU
+19:46:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:46:18 INFO  : 'con' command is executed.
+19:46:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:46:18 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+19:52:03 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+19:52:12 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+19:52:46 INFO  : Disconnected from the channel tcfchan#4.
+19:52:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:52:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+19:52:55 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+19:53:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:53:10 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+19:53:10 INFO  : 'jtag frequency' command is executed.
+19:53:10 INFO  : Context for 'APU' is selected.
+19:53:11 INFO  : System reset is completed.
+19:53:14 INFO  : 'after 3000' command is executed.
+19:53:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+19:53:17 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+19:53:17 INFO  : Context for 'APU' is selected.
+19:53:17 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:53:17 INFO  : 'configparams force-mem-access 1' command is executed.
+19:53:17 INFO  : Context for 'APU' is selected.
+19:53:17 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+19:53:17 INFO  : 'ps7_init' command is executed.
+19:53:17 INFO  : 'ps7_post_config' command is executed.
+19:53:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:53:18 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:53:18 INFO  : 'configparams force-mem-access 0' command is executed.
+19:53:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:53:18 INFO  : Memory regions updated for context APU
+19:53:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:53:18 INFO  : 'con' command is executed.
+19:53:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:53:18 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+19:54:54 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+19:55:04 INFO  : Disconnected from the channel tcfchan#6.
+19:55:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:55:04 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+19:55:04 INFO  : 'jtag frequency' command is executed.
+19:55:04 INFO  : Context for 'APU' is selected.
+19:55:04 INFO  : System reset is completed.
+19:55:07 INFO  : 'after 3000' command is executed.
+19:55:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+19:55:11 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+19:55:11 INFO  : Context for 'APU' is selected.
+19:55:11 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:55:11 INFO  : 'configparams force-mem-access 1' command is executed.
+19:55:11 INFO  : Context for 'APU' is selected.
+19:55:11 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+19:55:11 INFO  : 'ps7_init' command is executed.
+19:55:11 INFO  : 'ps7_post_config' command is executed.
+19:55:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:55:11 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:55:11 INFO  : 'configparams force-mem-access 0' command is executed.
+19:55:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:55:11 INFO  : Memory regions updated for context APU
+19:55:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:55:11 INFO  : 'con' command is executed.
+19:55:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:55:11 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+19:56:54 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+19:57:01 INFO  : Disconnected from the channel tcfchan#7.
+19:57:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:57:01 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+19:57:01 INFO  : 'jtag frequency' command is executed.
+19:57:01 INFO  : Context for 'APU' is selected.
+19:57:01 INFO  : System reset is completed.
+19:57:04 INFO  : 'after 3000' command is executed.
+19:57:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+19:57:08 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+19:57:08 INFO  : Context for 'APU' is selected.
+19:57:08 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:57:08 INFO  : 'configparams force-mem-access 1' command is executed.
+19:57:08 INFO  : Context for 'APU' is selected.
+19:57:08 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+19:57:08 INFO  : 'ps7_init' command is executed.
+19:57:08 INFO  : 'ps7_post_config' command is executed.
+19:57:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:57:09 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:57:09 INFO  : 'configparams force-mem-access 0' command is executed.
+19:57:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:57:09 INFO  : Memory regions updated for context APU
+19:57:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:57:09 INFO  : 'con' command is executed.
+19:57:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:57:09 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+20:03:01 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+20:03:09 INFO  : Disconnected from the channel tcfchan#8.
+20:03:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:03:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+20:03:19 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+20:03:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:03:35 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+20:03:35 INFO  : 'jtag frequency' command is executed.
+20:03:35 INFO  : Context for 'APU' is selected.
+20:03:35 INFO  : System reset is completed.
+20:03:38 INFO  : 'after 3000' command is executed.
+20:03:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+20:03:41 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+20:03:41 INFO  : Context for 'APU' is selected.
+20:03:41 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:03:41 INFO  : 'configparams force-mem-access 1' command is executed.
+20:03:41 INFO  : Context for 'APU' is selected.
+20:03:41 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+20:03:42 INFO  : 'ps7_init' command is executed.
+20:03:42 INFO  : 'ps7_post_config' command is executed.
+20:03:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:03:42 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:03:42 INFO  : 'configparams force-mem-access 0' command is executed.
+20:03:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:03:42 INFO  : Memory regions updated for context APU
+20:03:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:03:42 INFO  : 'con' command is executed.
+20:03:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:03:42 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+20:12:17 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+20:12:26 INFO  : Disconnected from the channel tcfchan#9.
+20:12:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:12:26 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+20:12:26 INFO  : 'jtag frequency' command is executed.
+20:12:26 INFO  : Context for 'APU' is selected.
+20:12:26 INFO  : System reset is completed.
+20:12:29 INFO  : 'after 3000' command is executed.
+20:12:38 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+20:12:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+----------------End of Script----------------
+
+20:12:38 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+20:12:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:12:41 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+20:12:41 INFO  : 'jtag frequency' command is executed.
+20:12:41 INFO  : Context for 'APU' is selected.
+20:12:41 INFO  : System reset is completed.
+20:12:44 INFO  : 'after 3000' command is executed.
+20:12:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+20:12:47 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+20:12:47 INFO  : Context for 'APU' is selected.
+20:12:47 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:12:47 INFO  : 'configparams force-mem-access 1' command is executed.
+20:12:47 INFO  : Context for 'APU' is selected.
+20:12:47 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+20:12:48 INFO  : 'ps7_init' command is executed.
+20:12:48 INFO  : 'ps7_post_config' command is executed.
+20:12:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:12:48 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:12:48 INFO  : 'configparams force-mem-access 0' command is executed.
+20:12:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:12:48 INFO  : Memory regions updated for context APU
+20:12:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:12:48 INFO  : 'con' command is executed.
+20:12:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:12:48 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+20:13:22 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+20:13:28 INFO  : Disconnected from the channel tcfchan#10.
+20:13:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:13:28 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+20:13:28 INFO  : 'jtag frequency' command is executed.
+20:13:28 INFO  : Context for 'APU' is selected.
+20:13:28 INFO  : System reset is completed.
+20:13:31 INFO  : 'after 3000' command is executed.
+20:13:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+20:13:35 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+20:13:35 INFO  : Context for 'APU' is selected.
+20:13:35 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:13:35 INFO  : 'configparams force-mem-access 1' command is executed.
+20:13:35 INFO  : Context for 'APU' is selected.
+20:13:35 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+20:13:35 INFO  : 'ps7_init' command is executed.
+20:13:35 INFO  : 'ps7_post_config' command is executed.
+20:13:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:13:35 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:13:35 INFO  : 'configparams force-mem-access 0' command is executed.
+20:13:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:13:36 INFO  : Memory regions updated for context APU
+20:13:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:13:36 INFO  : 'con' command is executed.
+20:13:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:13:36 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+20:14:03 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+20:14:11 INFO  : Disconnected from the channel tcfchan#11.
+20:14:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:14:12 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+20:14:12 INFO  : 'jtag frequency' command is executed.
+20:14:12 INFO  : Context for 'APU' is selected.
+20:14:12 INFO  : System reset is completed.
+20:14:15 INFO  : 'after 3000' command is executed.
+20:14:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+20:14:18 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+20:14:18 INFO  : Context for 'APU' is selected.
+20:14:18 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:14:18 INFO  : 'configparams force-mem-access 1' command is executed.
+20:14:18 INFO  : Context for 'APU' is selected.
+20:14:18 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+20:14:19 INFO  : 'ps7_init' command is executed.
+20:14:19 INFO  : 'ps7_post_config' command is executed.
+20:14:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:14:19 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:14:19 INFO  : 'configparams force-mem-access 0' command is executed.
+20:14:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:14:19 INFO  : Memory regions updated for context APU
+20:14:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:14:19 INFO  : 'con' command is executed.
+20:14:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:14:19 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+20:15:02 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+20:15:21 INFO  : Disconnected from the channel tcfchan#12.
+20:15:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:15:21 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+20:15:21 INFO  : 'jtag frequency' command is executed.
+20:15:21 INFO  : Context for 'APU' is selected.
+20:15:21 INFO  : System reset is completed.
+20:15:24 INFO  : 'after 3000' command is executed.
+20:15:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+20:15:28 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+20:15:28 INFO  : Context for 'APU' is selected.
+20:15:28 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:15:28 INFO  : 'configparams force-mem-access 1' command is executed.
+20:15:28 INFO  : Context for 'APU' is selected.
+20:15:28 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+20:15:28 INFO  : 'ps7_init' command is executed.
+20:15:28 INFO  : 'ps7_post_config' command is executed.
+20:15:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:15:29 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:15:29 INFO  : 'configparams force-mem-access 0' command is executed.
+20:15:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:15:29 INFO  : Memory regions updated for context APU
+20:15:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:15:29 INFO  : 'con' command is executed.
+20:15:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:15:29 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+20:16:00 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+20:16:06 INFO  : Disconnected from the channel tcfchan#13.
+20:16:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:16:07 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+20:16:07 INFO  : 'jtag frequency' command is executed.
+20:16:07 INFO  : Context for 'APU' is selected.
+20:16:07 INFO  : System reset is completed.
+20:16:10 INFO  : 'after 3000' command is executed.
+20:16:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+20:16:13 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+20:16:13 INFO  : Context for 'APU' is selected.
+20:16:13 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:16:13 INFO  : 'configparams force-mem-access 1' command is executed.
+20:16:13 INFO  : Context for 'APU' is selected.
+20:16:13 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+20:16:13 INFO  : 'ps7_init' command is executed.
+20:16:13 INFO  : 'ps7_post_config' command is executed.
+20:16:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:16:14 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:16:14 INFO  : 'configparams force-mem-access 0' command is executed.
+20:16:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:16:14 INFO  : Memory regions updated for context APU
+20:16:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:16:14 INFO  : 'con' command is executed.
+20:16:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:16:14 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+20:26:48 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+20:27:09 INFO  : Disconnected from the channel tcfchan#14.
+20:27:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:27:09 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+20:27:09 INFO  : 'jtag frequency' command is executed.
+20:27:09 INFO  : Context for 'APU' is selected.
+20:27:09 INFO  : System reset is completed.
+20:27:12 INFO  : 'after 3000' command is executed.
+20:27:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+20:27:15 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+20:27:15 INFO  : Context for 'APU' is selected.
+20:27:15 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:27:15 INFO  : 'configparams force-mem-access 1' command is executed.
+20:27:15 INFO  : Context for 'APU' is selected.
+20:27:15 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+20:27:16 INFO  : 'ps7_init' command is executed.
+20:27:16 INFO  : 'ps7_post_config' command is executed.
+20:27:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:27:16 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:27:16 INFO  : 'configparams force-mem-access 0' command is executed.
+20:27:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:27:16 INFO  : Memory regions updated for context APU
+20:27:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:27:16 INFO  : 'con' command is executed.
+20:27:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:27:16 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+20:29:42 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+20:30:00 INFO  : Disconnected from the channel tcfchan#15.
+20:30:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:30:00 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+20:30:00 INFO  : 'jtag frequency' command is executed.
+20:30:00 INFO  : Context for 'APU' is selected.
+20:30:00 INFO  : System reset is completed.
+20:30:03 INFO  : 'after 3000' command is executed.
+20:30:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+20:30:07 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+20:30:07 INFO  : Context for 'APU' is selected.
+20:30:07 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:30:07 INFO  : 'configparams force-mem-access 1' command is executed.
+20:30:07 INFO  : Context for 'APU' is selected.
+20:30:07 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+20:30:07 INFO  : 'ps7_init' command is executed.
+20:30:07 INFO  : 'ps7_post_config' command is executed.
+20:30:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:30:08 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:30:08 INFO  : 'configparams force-mem-access 0' command is executed.
+20:30:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:30:08 INFO  : Memory regions updated for context APU
+20:30:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:30:08 INFO  : 'con' command is executed.
+20:30:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:30:08 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+20:37:43 INFO  : Disconnected from the channel tcfchan#16.
+00:58:02 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\temp_xsdb_launch_script.tcl
+00:58:07 INFO  : XSCT server has started successfully.
+00:58:07 INFO  : Successfully done setting XSCT server connection channel  
+00:58:07 INFO  : plnx-install-location is set to ''
+00:58:07 INFO  : Successfully done setting workspace for the tool. 
+00:58:10 INFO  : Registering command handlers for Vitis TCF services
+00:58:11 INFO  : Successfully done query RDI_DATADIR 
+00:58:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:58:52 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+00:58:52 INFO  : 'jtag frequency' command is executed.
+00:58:52 INFO  : Context for 'APU' is selected.
+00:58:52 INFO  : System reset is completed.
+00:58:55 INFO  : 'after 3000' command is executed.
+00:58:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+00:58:59 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+00:58:59 INFO  : Context for 'APU' is selected.
+00:58:59 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+00:58:59 INFO  : 'configparams force-mem-access 1' command is executed.
+00:58:59 INFO  : Context for 'APU' is selected.
+00:58:59 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+00:58:59 INFO  : 'ps7_init' command is executed.
+00:58:59 INFO  : 'ps7_post_config' command is executed.
+00:58:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:59:00 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:59:00 INFO  : 'configparams force-mem-access 0' command is executed.
+00:59:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:59:00 INFO  : Memory regions updated for context APU
+00:59:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:59:00 INFO  : 'con' command is executed.
+00:59:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:59:00 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+01:03:23 INFO  : Disconnected from the channel tcfchan#1.
+01:03:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:03:23 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+01:03:23 INFO  : 'jtag frequency' command is executed.
+01:03:23 INFO  : Context for 'APU' is selected.
+01:03:24 INFO  : System reset is completed.
+01:03:27 INFO  : 'after 3000' command is executed.
+01:03:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+01:03:30 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+01:03:30 INFO  : Context for 'APU' is selected.
+01:03:32 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+01:03:32 INFO  : 'configparams force-mem-access 1' command is executed.
+01:03:32 INFO  : Context for 'APU' is selected.
+01:03:32 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+01:03:32 INFO  : 'ps7_init' command is executed.
+01:03:32 INFO  : 'ps7_post_config' command is executed.
+01:03:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:03:32 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:03:32 INFO  : 'configparams force-mem-access 0' command is executed.
+01:03:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:03:32 INFO  : Memory regions updated for context APU
+01:03:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:03:32 INFO  : 'con' command is executed.
+01:03:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:03:32 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+01:11:38 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+01:14:21 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+01:14:26 INFO  : Disconnected from the channel tcfchan#2.
+01:14:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:14:26 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+01:14:26 INFO  : 'jtag frequency' command is executed.
+01:14:26 INFO  : Context for 'APU' is selected.
+01:14:26 INFO  : System reset is completed.
+01:14:29 INFO  : 'after 3000' command is executed.
+01:14:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+01:14:33 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+01:14:33 INFO  : Context for 'APU' is selected.
+01:14:34 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+01:14:34 INFO  : 'configparams force-mem-access 1' command is executed.
+01:14:34 INFO  : Context for 'APU' is selected.
+01:14:34 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+01:14:35 INFO  : 'ps7_init' command is executed.
+01:14:35 INFO  : 'ps7_post_config' command is executed.
+01:14:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:14:35 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:14:35 INFO  : 'configparams force-mem-access 0' command is executed.
+01:14:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:14:35 INFO  : Memory regions updated for context APU
+01:14:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:14:35 INFO  : 'con' command is executed.
+01:14:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:14:35 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+02:16:33 INFO  : Disconnected from the channel tcfchan#3.
+02:16:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:16:33 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+02:16:33 INFO  : 'jtag frequency' command is executed.
+02:16:33 INFO  : Context for 'APU' is selected.
+02:16:33 INFO  : System reset is completed.
+02:16:36 INFO  : 'after 3000' command is executed.
+02:16:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+02:16:40 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+02:16:40 INFO  : Context for 'APU' is selected.
+02:16:41 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+02:16:41 INFO  : 'configparams force-mem-access 1' command is executed.
+02:16:41 INFO  : Context for 'APU' is selected.
+02:16:41 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+02:16:41 INFO  : 'ps7_init' command is executed.
+02:16:41 INFO  : 'ps7_post_config' command is executed.
+02:16:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:16:42 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:16:42 INFO  : 'configparams force-mem-access 0' command is executed.
+02:16:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:16:42 INFO  : Memory regions updated for context APU
+02:16:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:16:42 INFO  : 'con' command is executed.
+02:16:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:16:42 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+02:19:37 INFO  : Disconnected from the channel tcfchan#4.
+02:19:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:19:37 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+02:19:37 INFO  : 'jtag frequency' command is executed.
+02:19:37 INFO  : Context for 'APU' is selected.
+02:19:38 INFO  : System reset is completed.
+02:19:41 INFO  : 'after 3000' command is executed.
+02:19:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+02:19:44 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+02:19:44 INFO  : Context for 'APU' is selected.
+02:19:45 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+02:19:45 INFO  : 'configparams force-mem-access 1' command is executed.
+02:19:45 INFO  : Context for 'APU' is selected.
+02:19:45 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+02:19:46 INFO  : 'ps7_init' command is executed.
+02:19:46 INFO  : 'ps7_post_config' command is executed.
+02:19:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:19:46 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:19:46 INFO  : 'configparams force-mem-access 0' command is executed.
+02:19:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:19:46 INFO  : Memory regions updated for context APU
+02:19:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:19:46 INFO  : 'con' command is executed.
+02:19:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:19:46 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+02:32:32 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+02:32:39 INFO  : Disconnected from the channel tcfchan#5.
+02:32:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:32:39 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+02:32:39 INFO  : 'jtag frequency' command is executed.
+02:32:39 INFO  : Context for 'APU' is selected.
+02:32:39 INFO  : System reset is completed.
+02:32:42 INFO  : 'after 3000' command is executed.
+02:32:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+02:32:46 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+02:32:46 INFO  : Context for 'APU' is selected.
+02:32:47 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+02:32:47 INFO  : 'configparams force-mem-access 1' command is executed.
+02:32:47 INFO  : Context for 'APU' is selected.
+02:32:47 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+02:32:47 INFO  : 'ps7_init' command is executed.
+02:32:48 INFO  : 'ps7_post_config' command is executed.
+02:32:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:32:48 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:32:48 INFO  : 'configparams force-mem-access 0' command is executed.
+02:32:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:32:48 INFO  : Memory regions updated for context APU
+02:32:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:32:48 INFO  : 'con' command is executed.
+02:32:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:32:48 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+02:35:07 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+02:35:12 INFO  : Disconnected from the channel tcfchan#6.
+02:35:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:35:12 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+02:35:12 INFO  : 'jtag frequency' command is executed.
+02:35:12 INFO  : Context for 'APU' is selected.
+02:35:12 INFO  : System reset is completed.
+02:35:15 INFO  : 'after 3000' command is executed.
+02:35:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+02:35:19 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+02:35:19 INFO  : Context for 'APU' is selected.
+02:35:21 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+02:35:21 INFO  : 'configparams force-mem-access 1' command is executed.
+02:35:21 INFO  : Context for 'APU' is selected.
+02:35:21 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+02:35:21 INFO  : 'ps7_init' command is executed.
+02:35:21 INFO  : 'ps7_post_config' command is executed.
+02:35:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:35:21 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:35:21 INFO  : 'configparams force-mem-access 0' command is executed.
+02:35:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:35:21 INFO  : Memory regions updated for context APU
+02:35:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:35:21 INFO  : 'con' command is executed.
+02:35:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:35:21 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+02:43:41 INFO  : Disconnected from the channel tcfchan#7.
+02:17:28 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\temp_xsdb_launch_script.tcl
+02:17:32 INFO  : XSCT server has started successfully.
+02:17:32 INFO  : Successfully done setting XSCT server connection channel  
+02:17:32 INFO  : plnx-install-location is set to ''
+02:17:32 INFO  : Successfully done setting workspace for the tool. 
+02:17:32 INFO  : Registering command handlers for Vitis TCF services
+02:17:36 INFO  : Successfully done query RDI_DATADIR 
+02:26:47 INFO  : Checking for BSP changes to sync application flags for project 'zynq'...
+15:09:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\temp_xsdb_launch_script.tcl
+15:09:19 INFO  : Registering command handlers for Vitis TCF services
+15:09:20 INFO  : XSCT server has started successfully.
+15:09:23 INFO  : Successfully done setting XSCT server connection channel  
+15:09:23 INFO  : plnx-install-location is set to ''
+15:09:23 INFO  : Successfully done query RDI_DATADIR 
+15:09:23 INFO  : Successfully done setting workspace for the tool. 
+15:09:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:09:50 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+15:09:50 INFO  : 'jtag frequency' command is executed.
+15:09:50 INFO  : Context for 'APU' is selected.
+15:09:51 INFO  : System reset is completed.
+15:09:54 INFO  : 'after 3000' command is executed.
+15:09:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+15:09:57 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+15:09:57 INFO  : Context for 'APU' is selected.
+15:09:57 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:09:57 INFO  : 'configparams force-mem-access 1' command is executed.
+15:09:57 INFO  : Context for 'APU' is selected.
+15:09:57 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+15:09:58 INFO  : 'ps7_init' command is executed.
+15:09:58 INFO  : 'ps7_post_config' command is executed.
+15:09:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:09:58 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:09:58 INFO  : 'configparams force-mem-access 0' command is executed.
+15:09:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:09:58 INFO  : Memory regions updated for context APU
+15:09:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:09:58 INFO  : 'con' command is executed.
+15:09:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:09:58 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+15:12:06 INFO  : Disconnected from the channel tcfchan#1.
+19:46:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\temp_xsdb_launch_script.tcl
+19:46:17 INFO  : Registering command handlers for Vitis TCF services
+19:46:17 INFO  : XSCT server has started successfully.
+19:46:17 INFO  : plnx-install-location is set to ''
+19:46:24 INFO  : Successfully done setting XSCT server connection channel  
+19:46:24 INFO  : Successfully done query RDI_DATADIR 
+19:46:24 INFO  : Successfully done setting workspace for the tool. 
+19:46:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:46:36 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+19:46:36 INFO  : 'jtag frequency' command is executed.
+19:46:36 INFO  : Context for 'APU' is selected.
+19:46:37 INFO  : System reset is completed.
+19:46:40 INFO  : 'after 3000' command is executed.
+19:46:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1' command is executed.
+19:46:43 INFO  : FPGA configured successfully with bitstream "C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit"
+19:46:43 INFO  : Context for 'APU' is selected.
+19:46:44 INFO  : Hardware design information is loaded from 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:46:44 INFO  : 'configparams force-mem-access 1' command is executed.
+19:46:44 INFO  : Context for 'APU' is selected.
+19:46:44 INFO  : Sourcing of 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl' is done.
+19:46:44 INFO  : 'ps7_init' command is executed.
+19:46:44 INFO  : 'ps7_post_config' command is executed.
+19:46:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:46:45 INFO  : The application 'C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:46:45 INFO  : 'configparams force-mem-access 0' command is executed.
+19:46:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0} -index 1
+fpga -file C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ZhouLin/Desktop/Sound_source_localization/zynq_proj/vitis/zynq/Debug/zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:46:45 INFO  : Memory regions updated for context APU
+19:46:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:46:45 INFO  : 'con' command is executed.
+19:46:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:46:45 INFO  : Launch script is exported to file 'C:\Users\ZhouLin\Desktop\Sound_source_localization\zynq_proj\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_zynq_system_standalone.tcl'
+20:03:53 INFO  : Disconnected from the channel tcfchan#1.

@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Jan 29 05:08:47 2023
+# Process ID: 24628
+# Current directory: C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15016 C:\Users\ZhouLin\Desktop\Sound_source_localization\ov5640_single\ov5640_single.xpr
+# Log file: C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/vivado.log
+# Journal file: C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.xpr
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+upgrade_ip [get_ips  {system_axi_vdma_1_0 system_v_tc_0_0 system_xlconcat_0_0 system_v_axi4s_vid_out_0_0 system_axi_mem_intercon_0 system_rst_processing_system7_0_100M_0 system_xlconstant_1_0 system_rst_processing_system7_0_150M_0 system_alinx_ov5640_0_0 system_axi_vdma_0_0 system_axis_subset_converter_0_1 system_axi_gpio_0_0 system_processing_system7_0_axi_periph_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {system_axi_vdma_1_0 system_v_tc_0_0 system_xlconcat_0_0 system_v_axi4s_vid_out_0_0 system_axi_mem_intercon_0 system_rst_processing_system7_0_100M_0 system_xlconstant_1_0 system_rst_processing_system7_0_150M_0 system_alinx_ov5640_0_0 system_axi_vdma_0_0 system_axis_subset_converter_0_1 system_axi_gpio_0_0 system_processing_system7_0_axi_periph_0}] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.srcs/sources_1/bd/system/system.bd]
+launch_runs -jobs 10 {system_processing_system7_0_0_synth_1 system_axi_dynclk_0_0_synth_1 system_rgb2dvi_0_0_synth_1 system_alinx_ov5640_0_0_synth_1 system_axi_vdma_0_0_synth_1 system_axi_vdma_1_0_synth_1 system_rst_processing_system7_0_100M_0_synth_1 system_rst_processing_system7_0_150M_0_synth_1 system_v_axi4s_vid_out_0_0_synth_1 system_v_tc_0_0_synth_1 system_axis_subset_converter_0_1_synth_1 system_axi_gpio_0_0_synth_1 system_xbar_2_synth_1 system_xbar_3_synth_1 system_auto_pc_0_synth_1 system_auto_pc_1_synth_1}
+export_simulation -of_objects [get_files C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.srcs/sources_1/bd/system/system.bd] -directory C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.ip_user_files -ipstatic_source_dir C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.cache/compile_simlib/modelsim} {questa=C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.cache/compile_simlib/questa} {riviera=C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.cache/compile_simlib/riviera} {activehdl=C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+regenerate_bd_layout
+startgroup
+set_property -dict [list CONFIG.PCW_QSPI_PERIPHERAL_ENABLE {0} CONFIG.PCW_ENET0_PERIPHERAL_ENABLE {0} CONFIG.PCW_SD0_PERIPHERAL_ENABLE {0} CONFIG.PCW_USB0_PERIPHERAL_ENABLE {0} CONFIG.PCW_GPIO_MIO_GPIO_ENABLE {0}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.PCW_UIPARAM_DDR_BUS_WIDTH {16 Bit} CONFIG.PCW_UIPARAM_DDR_PARTNO {Custom} CONFIG.PCW_UIPARAM_DDR_SPEED_BIN {DDR3_1066G} CONFIG.PCW_UART1_PERIPHERAL_ENABLE {1} CONFIG.PCW_UART1_UART1_IO {MIO 24 .. 25}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+endgroup
+set_property -dict [list CONFIG.CONST_VAL {0}] [get_bd_cells xlconstant_0]
+startgroup
+make_bd_pins_external  [get_bd_pins xlconstant_0/dout]
+endgroup
+set_property name pwdn [get_bd_ports dout_0]
+save_bd_design
+generate_target all [get_files  C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.srcs/sources_1/bd/system/system.bd]
+launch_runs -jobs 10 {system_processing_system7_0_0_synth_1 system_rst_processing_system7_0_150M_0_synth_1 system_v_axi4s_vid_out_0_0_synth_1 system_xbar_2_synth_1 system_auto_pc_0_synth_1 system_auto_pc_1_synth_1}
+export_simulation -of_objects [get_files C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.srcs/sources_1/bd/system/system.bd] -directory C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.ip_user_files -ipstatic_source_dir C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.cache/compile_simlib/modelsim} {questa=C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.cache/compile_simlib/questa} {riviera=C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.cache/compile_simlib/riviera} {activehdl=C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+write_hw_platform -fixed -force  -include_bit -file C:/Users/ZhouLin/Desktop/Sound_source_localization/ov5640_single/ov5640_single.vitis/system_wrapper.xsa
